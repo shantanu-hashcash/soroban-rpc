@@ -1518,7 +1518,7 @@ dependencies = [
  "soroban-env-macros",
  "soroban-wasmi",
  "static_assertions",
- "hcnet-xdr",
+ "stellar-xdr",
  "wasmparser",
 ]
 
@@ -1551,7 +1551,7 @@ dependencies = [
  "soroban-env-common",
  "soroban-wasmi",
  "static_assertions",
- "hcnet-strkey",
+ "stellar-strkey",
  "wasmparser",
 ]
 
@@ -1566,7 +1566,7 @@ dependencies = [
  "quote",
  "serde",
  "serde_json",
- "hcnet-xdr",
+ "stellar-xdr",
  "syn",
 ]
 
@@ -1619,7 +1619,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 
 [[package]]
-name = "hcnet-rpc-client"
+name = "stellar-rpc-client"
 version = "21.0.1"
 dependencies = [
  "clap",
@@ -1632,8 +1632,8 @@ dependencies = [
  "serde-aux",
  "serde_json",
  "sha2",
- "hcnet-strkey",
- "hcnet-xdr",
+ "stellar-strkey",
+ "stellar-xdr",
  "termcolor",
  "termcolor_output",
  "thiserror",
@@ -1642,7 +1642,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "hcnet-strkey"
+name = "stellar-strkey"
 version = "0.0.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "12d2bf45e114117ea91d820a846fd1afbe3ba7d717988fee094ce8227a3bf8bd"
@@ -1653,7 +1653,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "hcnet-xdr"
+name = "stellar-xdr"
 version = "21.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "88e716110d5e050e528820217f84d4667e166ced841ba48d074152d4ad4ab884"
@@ -1665,7 +1665,7 @@ dependencies = [
  "hex",
  "serde",
  "serde_with",
- "hcnet-strkey",
+ "stellar-strkey",
 ]
 
 [[package]]
